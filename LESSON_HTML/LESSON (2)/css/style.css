@@ -1,0 +1,10 @@
+h1{
+    font-weight: 300;/*harflarni qalin yoki ingichkali*/
+}
+table, th, td{
+    border: 1px solid black;/*chegara hosil qilib beradi*/
+    border-collapse: collapse; /*ortiqcha chiziqlarni olib tashlaydi*/
+ }
+th, td{
+    padding: 10px;
+}

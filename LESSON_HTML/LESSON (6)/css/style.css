@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: NotoSansDisplay-Regular;
+  src: url(/fonts/NotoSansDisplay-Regular.ttf);
+}
+
+body {
+  font-family: NotoSansDisplay-Regular, serif;
+  background-image: linear-gradient(to right, red, yellow);
+}
+ul {
+  background-color: #fff;
+}
+li {
+  /* display: inline; */
+  display: inline-block;
+  padding: 20px 10px;
+}
+ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+li:hover {
+  background-color: silver;
+}
+.container {
+  width: 1200px;
+  min-height: 400px;
+  margin: 20px auto;
+}
+.col {
+  width: 25%;
+  min-height: 200px;
+  border: 1px solid black;
+  /* float: left;
+    box-sizing: border-box; */
+}
+.row {
+  display: flex; /*o'zini ichidagi barcha elementni bir qatorga joylaydi*/
+  flex-wrap: wrap; /*Berilgan with ga qarab bir qatorga taxleydi*/
+  /*flex-direction: row;        bu bitta qatorga javob beradi*/
+}

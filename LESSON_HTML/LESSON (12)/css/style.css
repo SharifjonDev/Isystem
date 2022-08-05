@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.col {
+    margin: 10px;
+}
+.box {
+    background: blue;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.custon-padding {
+    padding: 10px;!important;
+}

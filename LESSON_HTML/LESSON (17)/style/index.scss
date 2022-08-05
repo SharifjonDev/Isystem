@@ -1,0 +1,25 @@
+$color1: lightgreen;
+
+body {
+    background-color: lightcyan;
+
+    section {
+        background-color: silver;
+        .container {
+            border: 1px solid red;
+             .row {
+                .col-3 {
+                    h3 {
+                        font-size: 25px;
+                        letter-spacing: 5px;
+                        color: $color1;
+                    }
+                    .custom-btn {
+                        background-color: red;
+                        color:white;
+                    }
+                }
+            }
+        }
+    }
+}

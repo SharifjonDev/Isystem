@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sky {
+    width: 100%;
+    height: 70vh;
+    background-image: url("../image/sky.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.gross {
+    width: 100%;
+    height: 30vh;
+    background-color: #01891f;
+}
+.ball {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    animation-duration: 3s;
+    animation-name: ball-animation, ball-animation-2;
+    animation-iteration-count: infinite;
+}
+@keyframes ball-animation {
+    from {
+        transform: translateX(0)rotate(0);
+    }
+    to {
+        transform: translateX(100px)rotateZ(360deg);
+    }
+}
+@keyframes ball-animation-2 {
+    0% {
+        transform: translateX(0)rotate(0);
+    }
+    50% {
+        transform: translateX(100px)rotateZ(360deg);
+    }
+}
+.ball-2 {
+    left: 160px;
+}
+.ball-3 {
+    left: 300px;
+}
+.ball-4 {
+    left: 440px;
+}
+.ball-5 {
+    left: 580px;
+}

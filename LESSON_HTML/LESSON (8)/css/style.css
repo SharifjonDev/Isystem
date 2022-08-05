@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Consolas;
+}
+input {
+    background-color: black;
+    color: white;
+    padding: 5px 2px;
+    border: none;
+    border-bottom: 1px solid red;
+    text-transform: capitalize;
+}
+input::placeholder {
+    color: silver;
+}

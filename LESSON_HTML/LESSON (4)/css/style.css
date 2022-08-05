@@ -1,0 +1,13 @@
+body, h3{
+    margin: 0;
+}
+.box {
+    background-color: red;
+    width: 30%;
+    min-height: 200px;
+    float: left;
+    margin: 10px 5px;
+}
+.box:nth-child(even){
+    background-color: yellow;
+}
