@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "AllMovies.module.scss"
+    ],
+    "names": [],
+    "file": "AllMovies.module.css"
+}
