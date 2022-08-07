@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 100px 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  font-size: 1em;
+  transition: all 0.2s;
+}
+
+.btn-dark {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.btn-dark:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-success {
+  background-color: #4f7942;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #4f7942;
+}

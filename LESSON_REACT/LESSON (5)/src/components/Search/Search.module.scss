@@ -1,0 +1,14 @@
+@import "../../styles/toRemConverter";
+
+.form {
+  input {
+    padding: toRem(8) toRem(10);
+    font-size: toRem(14);
+    box-shadow: none;
+    border-radius: toRem(5) 0 0 toRem(5);
+    border: none;
+  }
+  button {
+    border-radius: 0 toRem(5) toRem(5) 0 !important;
+  }
+}
