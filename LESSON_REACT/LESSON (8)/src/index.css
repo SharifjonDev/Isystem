@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+  
+}
+
+body{
+  font-family: "Courier New"
+}
+
+.d-center {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+  }
+  .row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 21rem;
+    gap: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
