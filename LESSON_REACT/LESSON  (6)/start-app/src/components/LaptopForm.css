@@ -1,0 +1,13 @@
+.laptop-form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.form-control input {
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #000;
+  padding: 0.5rem 0;
+}

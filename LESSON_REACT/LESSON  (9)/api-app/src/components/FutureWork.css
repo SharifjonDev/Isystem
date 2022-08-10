@@ -1,0 +1,58 @@
+.cards {
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 31px;
+  display: flex;
+  align-items: center;
+}
+.cards img {
+  width: 246px;
+  height: 180px;
+  margin-right: 18px;
+  margin-bottom: 20px;
+}
+.cards .allText h2 {
+  font-family: Heebo-Bold, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 44px;
+  margin: 0;
+  color: #21243d;
+}
+.cards .allText p {
+  font-family: Heebo-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  width: 586px;
+  color: #21243d;
+  margin: 0;
+}
+.cards .allText .d-flex {
+  display: flex;
+  align-items: center;
+  margin: 16px 0;
+}
+.cards .allText .d-flex h4 {
+  font-family: Heebo-Black;
+  text-align: center;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  width: 62px;
+  height: 25px;
+  border-radius: 16px;
+  color: #ffffff;
+  background: #142850;
+  margin: 0;
+}
+.cards .allText .d-flex h3 {
+  font-family: Heebo-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695a4;
+  margin: 0 0 0 26px;
+}

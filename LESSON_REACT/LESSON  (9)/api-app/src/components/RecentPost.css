@@ -1,0 +1,32 @@
+.content {
+  width: 100%;
+  background: #edf7fa;
+  padding: 7px 0 32px 0;
+}
+.content .row {
+  display: flex;
+  flex-direction: column;
+}
+.content .row .col-xl-12 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content .row .col-xl-12 h3 {
+  font-family: Heebo-Regular;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 60px;
+  color: #21243d;
+  margin: 0;
+}
+.content .row .col-xl-12 a {
+  font-family: Heebo-Regular;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: right;
+  color: #00a8cc;
+  margin: 0;
+}

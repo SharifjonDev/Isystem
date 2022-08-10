@@ -1,0 +1,20 @@
+.navbar {
+  font-family: Heebo-Medium;
+  padding: 27px 0;
+}
+.navbar ul {
+  display: flex;
+  justify-content: end;
+  margin: 0;
+}
+.navbar ul li {
+  list-style: none;
+  margin-left: 33px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #000000;
+}
